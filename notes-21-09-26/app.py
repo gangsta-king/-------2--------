@@ -72,6 +72,17 @@
 # nthird=(n//100)%10
 # nlast=(n//1000)%10
 
-n,m,k = int(input()),int(input()),int(input())
-if k//m > n:
-    print('Yes')
+# n,m,k = int(input()),int(input()),int(input())
+# if k//m > n:
+#     print('Yes')
+
+# keywords = ['False', 'True', 'None', 'and', 'with', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'try', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'while', 'yield']
+
+# new_keywords = [i[1:] for i in keywords]
+
+# print(new_keywords)
+
+palindromes = [[f'{}' for j in range(0,10)] for i in range(1,10)]
+
+print(palindromes)
+
