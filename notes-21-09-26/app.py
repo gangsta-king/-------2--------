@@ -144,8 +144,11 @@
 # n=input().split()
 # print(max(list(len(i) for i in n)))
 
-a,b,n=int(input()),int(input()),int(input())
-if (n%b==0 and n//b < a) or (n%a==0 and n//a < b):
-    print('YES')
-else:
-    print('NO')
+# a,b,n=int(input()),int(input()),int(input())
+# if (n%b==0 and n//b < a) or (n%a==0 and n//a < b):
+#     print('YES')
+# else:
+#     print('NO')
+
+# v,n=int(input()),int(input())
+# print(v*n % 109)
