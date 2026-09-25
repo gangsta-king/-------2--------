@@ -152,3 +152,20 @@
 
 # v,n=int(input()),int(input())
 # print(v*n % 109)
+
+# print((int(input())//2+1)*2)
+
+# n=int(input())
+# print((n+2)-(n%2))
+
+# n=3606 # seconds
+# minut = (n // 60) % 60
+# hours = (n // 3600) % 24
+# sec = n % 60
+
+# print(f'{hours//10}{hours%10}:{minut//10}{minut%10}:{sec//10}{sec%10}')
+
+n=int(input())
+lesson=n*45
+odd = 5
+even= 15
