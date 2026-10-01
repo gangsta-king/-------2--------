@@ -165,7 +165,82 @@
 
 # print(f'{hours//10}{hours%10}:{minut//10}{minut%10}:{sec//10}{sec%10}')
 
-n=int(input())
-lesson=n*45
-odd = 5
-even= 15
+# n=int(input())
+# c=n//2*5
+# c1=(n-1)//2*15
+# co=c+c1
+# t=9*60 + co + n * 45
+# print(t//60,t%60)
+
+# n=int(input())
+# if n!=0 and n%4==0:
+#     print('YES')
+# elif n==1:
+#     print('YES')
+# else:
+#     print('NO')
+
+# a = int(input())
+# b = int(input())
+
+# if a == 0:
+#     if b == 0:
+#         print('INF')
+#     else:
+#         print('NO')
+# else:
+#     if (-b) % a == 0:
+#         print((-b) // a)
+#     else:
+#         print('NO')
+
+# s,s1=int(input()),int(input())
+# print(s1//s if s1%s==0 else s1//s+1)
+
+# n,n1=int(input()),int(input())
+# print((n*n1)%109)
+
+# n=int(input())
+# print(n%1440//60, n%60)
+
+# n=int(input())
+# print(f'{n//3600%24}:{(n%3600//60)//10}{(n%3600//60)%10}:{(n%60)//10}{(n%60)%10}')
+
+# a,b=int(input()),int(input())
+# a,b=b,a
+# print(a,b)
+
+# a,b,n=int(input()),int(input()),int(input())
+# c=(a*100+b)*n
+# print(c//100,c%100)
+
+# a,b,c,a1,b1,c1=int(input()),int(input()),int(input()),int(input()),int(input()),int(input())
+# count=c+b*60+a*3600
+# count1=c1+b1*60+a1*3600
+# print(count1-count)
+
+# a,n=int(input()),int(input())
+# print((a-n%a)%a)
+
+# h,a,b=int(input()),int(input()),int(input())
+# c=a
+# co=1
+# while c<h:
+#     c-=b
+#     c+=a
+#     co+=1
+# print(co)
+
+# n=int(input())
+# s=int(str(n).reverse(True))
+
+# n = int(input())
+
+# # Извлекаем цифры четырехзначного числа
+# a = n // 1000
+# b = (n // 100) % 10
+# c = (n // 10) % 10
+# d = n % 10
+
+# # Проверяем равенство первой и последней, а также второй и третьей цифр
+# print(int(a == d and b == c))
