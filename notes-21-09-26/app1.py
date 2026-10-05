@@ -36,8 +36,59 @@
     
 # print(max(int(input()),int(input())))
 
-a,b,c = int(input()),int(input()),int(input())
-if a+b>c and a+c>b and b+c>a:
-    print('YES')
-else:
-    print('NO')
+# a,b,c = int(input()),int(input()),int(input())
+# if a+b>c and a+c>b and b+c>a:
+#     print('YES')
+# else:
+#     print('NO')
+
+# n=int(input())
+# c=0
+# for i in range(n):
+#     s=input()
+#     if s.startswith('Set') and s.endswith('answer'):
+#         if len(s[3:-6]) >c:
+#             c=len(s[3:-6])
+# print(c)
+
+# n = int(input())
+# v = 0  # Счётчик подходящих чисел x
+
+# # Перебираем нечётные числа x от 1 до n
+# for x in range(1, n + 1, 2):
+#     # 1. Считаем количество делителей числа x
+#     c = 0
+#     for j in range(1, x + 1):
+#         if x % j == 0:
+#             c += 1
+            
+#     # 2. Проверяем, является ли количество делителей (c) нечётным и простым
+#     if c > 2 and c % 2 != 0:
+#         # Проверяем c на простоту
+#         s = 0
+#         for j in range(1, c + 1):
+#             if c % j == 0:
+#                 s += 1
+#         # Если у количества делителей c ровно 2 делителя (1 и c), то c — простое
+#         if s == 2:
+#             v += 1
+
+# print(v)
+
+n = int(input())
+n=n%7
+match n:
+    case 0:
+        print('Monday')
+    case 1:
+        print('Tuesday')
+    case 2:
+        print('Wednesday')
+    case 3:
+        print('Thursday')
+    case 4:
+        print('Friday')
+    case 5:
+        print('Saturday')
+    case 6:
+        print('Sunday')
