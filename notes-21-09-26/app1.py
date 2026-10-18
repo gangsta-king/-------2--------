@@ -75,20 +75,56 @@
 
 # print(v)
 
-n = int(input())
-n=n%7
-match n:
-    case 0:
-        print('Monday')
-    case 1:
-        print('Tuesday')
-    case 2:
-        print('Wednesday')
-    case 3:
-        print('Thursday')
-    case 4:
-        print('Friday')
-    case 5:
-        print('Saturday')
-    case 6:
-        print('Sunday')
+# n = int(input())
+# n=n%7
+# match n:
+#     case 0:
+#         print('Monday')
+#     case 1:
+#         print('Tuesday')
+#     case 2:
+#         print('Wednesday')
+#     case 3:
+#         print('Thursday')
+#     case 4:
+#         print('Friday')
+#     case 5:
+#         print('Saturday')
+#     case 6:
+#         print('Sunday')
+
+# n=int(input())
+# c=0
+# for i in range(1,n+1):
+#     c+=i
+# print(c,(n+1)//2*(1+n),sep='\n')
+
+# import random
+# num=random.randint(1,100)
+# n=int(input())
+# while n!=num:
+#     if n<num:
+#         print('too low')
+#     elif n>num:
+#         print('too high')
+#     n=int(input())
+#     if n==num:
+#         print('right')
+#         break
+
+from app import val,drawRectangle,drawFrame,divisors,isprimenum,isPrime,GCD
+# print(val(int(input())))
+
+# drawRectangle(int(input()),int(input()),input())
+
+# drawFrame(int(input()),int(input()))
+
+# print(sum([int(input()),int(input())]))
+
+# print(divisors(int(input())))
+
+# print(isprime(int(input())))
+
+# isPrime(int(input()),int(input()))
+
+# print(GCD(int(input()),int(input())))

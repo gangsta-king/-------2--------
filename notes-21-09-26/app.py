@@ -244,3 +244,39 @@
 
 # # Проверяем равенство первой и последней, а также второй и третьей цифр
 # print(int(a == d and b == c))
+
+
+def val(n):
+    return n*'*'
+
+def drawRectangle(n,m,s):
+    print(*[s*m for i in range(n)],sep='\n')
+
+def drawFrame(n,m):
+    print(m*'*',*[f'*{' '*(m-2)}*' for i in range(n-2)],m*'*',sep='\n')
+
+def divisors(n):
+    return ','.join([str(i) for i in range(1,n+1) if n%i==0])
+
+def isprimenum(n):
+    c=0
+    for i in range(1,n+1):
+        if n%i==0:
+            c+=1
+    return True if c==2 else False
+
+def isPrime(n,m):
+    for i in range(n,m+1):
+        c=0
+        for j in range(1,i+1):
+            if i%j==0:
+                c+=1
+        if c==2:
+            print(i)
+
+def GCD(n,m):
+    c=0
+    for i in range(1,min(n,m)+1):
+        if n%i==0 and m%i==0:
+            c=i
+    return c
