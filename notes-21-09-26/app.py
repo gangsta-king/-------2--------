@@ -244,6 +244,7 @@
 
 # # Проверяем равенство первой и последней, а также второй и третьей цифр
 # print(int(a == d and b == c))
+# print(*sorted([j for i in [[int(i) for i in input().split()] for i in range(int(input()))] for j in i]))
 
 
 def val(n):
